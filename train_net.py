@@ -49,8 +49,7 @@ from detectron2.evaluation import (
 )
 from detectron2.modeling import GeneralizedRCNNWithTTA, build_model
 
-import datasets.coco
-import model_ema
+from utils import model_ema
 
 class Trainer(DefaultTrainer):
     """
